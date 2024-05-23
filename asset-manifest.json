@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nua/static/css/main.20fa6100.css",
+    "main.js": "/nua/static/js/main.1cbda7fe.js",
+    "static/js/453.edb3e1fa.chunk.js": "/nua/static/js/453.edb3e1fa.chunk.js",
+    "index.html": "/nua/index.html",
+    "main.20fa6100.css.map": "/nua/static/css/main.20fa6100.css.map",
+    "main.1cbda7fe.js.map": "/nua/static/js/main.1cbda7fe.js.map",
+    "453.edb3e1fa.chunk.js.map": "/nua/static/js/453.edb3e1fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20fa6100.css",
+    "static/js/main.1cbda7fe.js"
+  ]
+}
