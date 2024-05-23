@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactInput from "../app/components/ReactInput";
 import ReactButton from "../app/components/ReactButton";
 import { useNavigate } from "react-router-dom";
+import { userLogInData } from "../config/config";
 const LogIn = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassWord] = useState("");
@@ -9,9 +10,10 @@ const LogIn = () => {
   const [emptyFieldErrorMsg, setEmptyFieldErrorMsg] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
-
+  const loginId = userLogInData.userName;
+  const loginPass = userLogInData.password;
   const onSubmit = async () => {
-    if (userName === "vishal@gmail.com" && password === "admin123") {
+    if (userName === loginId && password === loginPass) {
       localStorage.setItem("token", "loginToken");
       setPassWord("");
       setUserName("");
