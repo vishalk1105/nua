@@ -1,0 +1,24 @@
+main {
+  width: 100%;
+  padding: 20px;
+  overflow: auto;
+  height: calc(100% - 62px);
+}
+
+.footer {
+  z-index: -1 !important;
+}
+
+/*NavBar CSS*/
+.logo {
+  width: 80px;
+  margin-left: 10px;
+}
+.navTitle {
+  color: #6a6a6a;
+  text-decoration: none;
+}
+#navbarNav {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+.pagination {
+  --bs-pagination-border-width: 1px !important;
+  --bs-pagination-border-color: #fde79c !important;
+  --bs-pagination-border-radius: 5px !important;
+  --bs-pagination-active-bg: #fde79c !important;
+  --bs-pagination-active-color: #626262 !important;
+  --bs-pagination-active-border-color: #fde79c !important;
+  --bs-pagination-color: #626262 !important;
+  --bs-pagination-focus-box-shadow: none !important;
+  --bs-pagination-hover-color: #626262 !important;
+  --bs-pagination-focus-color: #626262 !important;
+  --bs-pagination-hover-bg: #f8f1da !important;
+  --bs-pagination-focus-bg: #f8f1da !important;
+  --bs-pagination-hover-border-color: #f8f1da !important;
+  width: 600px;
+}

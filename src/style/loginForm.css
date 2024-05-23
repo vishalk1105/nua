@@ -1,0 +1,49 @@
+/* Log In LAyout CSS */
+
+.logInLayoutDiv {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://cdn.nuawoman.com/blog/WhatsApp+Image+2022-04-29+at+11.12.52+PM.jpeg")
+    center center / cover no-repeat;
+  object-position: center;
+  object-fit: contain;
+}
+
+.loginFormDiv {
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid transparent;
+  opacity: 0.9;
+}
+.loginHeader {
+  height: 60px;
+}
+.logInLogo {
+  width: 45px;
+  height: 50px;
+}
+.passwordInput {
+  position: relative;
+}
+
+.passwordIcon {
+  position: absolute;
+  right: 10px;
+}
+.logInBtn {
+  background: #f18070 !important;
+  border-radius: 3px;
+  color: white;
+}
+.logInBtn:hover,
+.logInBtn:active {
+  background: #f18070 !important;
+  border-radius: 3px !important;
+  color: white !important;
+}

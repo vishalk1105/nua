@@ -1,0 +1,26 @@
+.btn:hover {
+  color: none;
+  background-color: none;
+  border-color: none;
+}
+.form-select:focus {
+  border-color: none !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+@import url("./style/reactInput.css");
+@import url("./style/loginForm.css");
+@import url("./style/mainLayout.css");
+@import url("./style/reactLoader.css");
+@import url("./style/reactPagination.css");
+@import url("./style/myProfile.css");
+@import url("./style/home.css");
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #f18070 !important;
+  outline: 0;
+  box-shadow: none !important;
+}

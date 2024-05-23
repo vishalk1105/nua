@@ -1,0 +1,43 @@
+.searchBtn,
+.searchBtn:hover,
+.searchBtn:active,
+.searchBtn:focus-visible {
+  background-color: #fde79c !important;
+  padding: 6px 22px !important;
+  color: #6a6a6a !important;
+  border: 1px solid #fde79c !important;
+}
+
+.subjectPillClass {
+  background-color: #f18070 !important;
+  padding: 6px;
+  margin: 4px;
+}
+
+.pageDropDownClass {
+  width: 200px !important;
+  height: 38px;
+}
+
+.form-select,
+.form-select:focus {
+  border-color: #f18070 !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.optionsList:hover {
+  background-color: #f18070 !important;
+  color: #626262 !important;
+}
+.authorSearchIn {
+  border-color: #f18070 !important;
+}
+.ag-header-container {
+  background-color: #fdf2f0 !important;
+}
+.logoutDiv {
+  background-color: #fde79c;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
