@@ -1,23 +1,11 @@
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import MainLayout from "../layout/MainLayout";
 import { AgGridReact } from "@ag-grid-community/react";
-import { ClientSideRowModelModule } from "@ag-grid-community/client-side-row-model";
-import { MenuModule } from "@ag-grid-enterprise/menu";
 import { ModuleRegistry } from "@ag-grid-community/core";
-import { SetFilterModule } from "@ag-grid-enterprise/set-filter";
+import { ClientSideRowModelModule } from "@ag-grid-community/client-side-row-model";
 import ReactInput from "../app/components/ReactInput";
 
-ModuleRegistry.registerModules([
-  ClientSideRowModelModule,
-  MenuModule,
-  SetFilterModule,
-]);
+ModuleRegistry.registerModules([ClientSideRowModelModule]);
 
 const Home = () => {
   const [bookData, setBookData] = useState([]);
