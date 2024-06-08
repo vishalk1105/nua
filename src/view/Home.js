@@ -114,8 +114,6 @@ const Home = () => {
     fetchData();
   }, [fetchData]);
 
-  console.log(authorData, bookData, "name");
-
   const defaultColDef = useMemo(() => {
     return {
       flex: 1,
